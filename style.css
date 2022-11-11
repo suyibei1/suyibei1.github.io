@@ -64,3 +64,12 @@ audio,
         letter-spacing: .05rem;
     }
 }
+@media screen and (max-width: 450px) {
+    #lovexf {
+        /* .5 指的是在画布原始大小上缩放一半 */
+        zoom: .5;
+        /* .3 就是缩放 3/10 */
+        /* zoom: .3; */
+        /* 大家自己尝试 */
+    }
+}
