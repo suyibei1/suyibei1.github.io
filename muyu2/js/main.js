@@ -58,7 +58,7 @@ Merit = $.cookie("Merit")
 Data_control("null")
 function Data_control(Merit_data) {
     if(Merit_data == "click") {
-        Merit = randomNum(100000000,1000000000);
+        Merit++;
 
         $.cookie("Merit", Merit, { expires: 30 })
         $(".text .text_1").text("当前功德：" + Merit);
